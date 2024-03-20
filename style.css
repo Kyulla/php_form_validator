@@ -1,0 +1,44 @@
+body{
+	font-family: sans-serif;
+	background-image: url("./background.png");
+	background-size: cover;
+}
+
+.delivery-form{
+	background-color: white;
+	position: absolute;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	padding-right: 100px;
+	margin-top: 8%;
+	margin-left: 10%;
+}
+
+.delivery-form input, select{
+	width: 110%;
+	background-color: whitesmoke;
+	border-color: grey;
+	border-width: 2px;
+	padding-left: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.delivery-form select{
+	width: 123%;
+}
+
+.delivery-form button{
+	background-color: #277ee3;
+	color: white;
+	padding: 10px;
+	border-radius: 25px;
+}
+
+.delivery-form h3{
+	color: #043787;
+}
+
+.error-text{
+	color: red;
+}
